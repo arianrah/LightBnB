@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS rates;
 DROP TABLE IF EXISTS reservations;
 DROP TABLE IF EXISTS guest_reviews;
 DROP TABLE IF EXISTS property_reviews;
+-- theorizing if drop table needed -- 
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
